@@ -51,7 +51,7 @@ footer {
 .product-card button {
   margin-top: 10px;
   padding: 8px 12px;
-  background-color: #28a745;
+  background-color: #007f3f; 
   color: white;
   border: none;
   border-radius: 4px;
@@ -70,7 +70,7 @@ footer {
 }
 
 .cart-item button {
-  background-color: #dc3545;
+  background-color: #c82333; 
   color: white;
   border: none;
   padding: 4px 8px;
