@@ -27,7 +27,7 @@ const ProductList = () => {
   return (
     <div className="product-list">
       {products.map(product => (
-        <div key={product.id} className="product-card">
+        <div key={product.id} className="product-card" tabIndex="0">
           <img src={product.image} alt={product.title} />
           <h3>{product.title}</h3>
           <p>R${product.price.toFixed(2)}</p>
