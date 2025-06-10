@@ -11,7 +11,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="cart">
+    <div className="cart" aria-live="polite">
       <h2>Seu Carrinho</h2>
       {items.length === 0 ? (
         <p>O carrinho está vazio.</p>
@@ -28,3 +28,4 @@ const Cart = () => {
 };
 
 export default Cart;
+
